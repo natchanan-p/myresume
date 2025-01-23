@@ -4,9 +4,14 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
+
 (function() {
   "use strict";
 
+  const currentYear = new Date().getFullYear() + 543;
+  const birthYear = new Date('10/04/1996').getFullYear() + 543;
+  document.getElementById('age').textContent = currentYear - birthYear;
   /**
    * Easy selector helper function
    */
