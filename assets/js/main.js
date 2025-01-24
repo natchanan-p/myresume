@@ -12,6 +12,12 @@
   const currentYear = new Date().getFullYear() + 543;
   const birthYear = new Date('10/04/1996').getFullYear() + 543;
   document.getElementById('age').textContent = currentYear - birthYear;
+
+  const experienceYear = new Date().getFullYear() - new Date().getFullYear('01/07/2017').getFullYear();
+  console.log({experienceYear});
+  
+  document.getElementById('experience').textContent = experienceYear;
+
   /**
    * Easy selector helper function
    */
