@@ -9,6 +9,8 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
 
+
+
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -28,6 +30,15 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <!-- MDB -->
+  <link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/8.0.0/mdb.min.css"
+  rel="stylesheet"
+  />
+<script
+type="text/javascript"
+src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/8.0.0/mdb.umd.min.js"
+></script>
 
   <!-- =======================================================
   * Template Name: MyResume - v4.9.1
@@ -50,7 +61,8 @@
         <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
         <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
         <li><a href="#skills" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Skills</span></a></li>
-        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+        <li><a href="#education" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Education</span></a></li>
+        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Experience</span></a></li>
         <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a>
         </li>
         <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
@@ -61,7 +73,7 @@
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-center">
-    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+    <div class="container fade-in-left" data-aos="zoom-in" data-aos-delay="100">
       <h2>Natchanan Pathmaritdechyothee</h2>
       <!-- <p>I'm <span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer"></span></p> -->
       <p>I'm <span class="typed" data-typed-items="Web Developer"></span></p>
@@ -90,7 +102,7 @@
           <div class="col-lg-4">
             <img src="assets/img/profile2.jpg" class="img-fluid" alt="">
           </div>
-          <div class="col-lg-8 p-4 pt-lg-0 content">
+          <div class="col-lg-8 p-4 pt-lg-0 content"  data-aos="fade-left" data-aos-delay="500">
             <h3> Web Developer</h3>
             <!-- <p class="fst-italic">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -131,6 +143,35 @@
       </div>
     </section><!-- End About Section -->
 
+    <section id="education">
+      <div class="container p-4" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Education</h2>
+        </div>
+        <div class="row">
+       
+            <div class="resume-item" data-aos="fade-right" data-aos-delay="400">
+              <div class="d-flex">
+                <img src="assets/img/icon/graduation-cap.png" width="50" height="50">
+                <h5 class="px-3"> BACHELOR'S DEGREE OF BUSINESS MANGEMENT AND
+                  TECHNOLOGY</h5>
+              </div>
+              <p>INFORMATION SYSTEM</p>
+              <h5>2013 - 2016</h5>
+              <p><em>At Rajamangala University of Technology Tawan-Ok :
+                Chakrabongse Bhuvanarth Campus</em></p>
+            </div>
+            <div class="resume-item mt-3" data-aos="fade-right" data-aos-delay="500">
+              <div class="d-flex">
+                <img src="assets/img/icon/school.png" width="50" height="50">
+                <h5 class="p-3">SRI AYUDHYA SCHOOL</h5>
+              </div>
+              <h5>2006 - 2012</h5>
+            </div>
+        </div>
+      </div>
+    </section>
+
     <!-- ======= Resume Section ======= -->
     <section id="resume" class="resume">
       <div class="container p-4" data-aos="fade-up">
@@ -141,38 +182,19 @@
           </p>
         </div>
 
-        <div class="row">
-          <div class="col-lg-6">
-            <h3 class="resume-title">Sumary</h3>
-            <div class="resume-item pb-0">
-              <h4>Natchanan Pathmaritdechyothee</h4>
+  
+
+        <div class="row" data-aos="fade-right">
+          <div class="col-lg-6 card bg-light">
+            <h3 class="resume-title" >Summary</h3>
+
               <p><em>I have experience <span id="experience"></span> years in Developer in analyzing and solving problems</em></p>
               <p><em>Learn new things that will be used in development.</em></p>
-           
-            </div>
-
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4> BACHELOR'S DEGREE OF BUSINESS MANGEMENT AND
-                TECHNOLOGY (INFORMATION SYSTEM)</h4>
-              <h5>2013 - 2016</h5>
-              <p><em>At Rajamangala University of Technology Tawan-Ok :
-                Chakrabongse Bhuvanarth Campus</em></p>
-              <!-- <p>At Rajamangala University of Technology Tawan-Ok :
-                Chakrabongse Bhuvanarth Campus</p> -->
-            </div>
-            <div class="resume-item">
-              <h4>SRI AYUDHYA SCHOOL</h4>
-              <h5>2006 - 2012</h5>
-              <!-- <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-              <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius
-                unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart
-                dila</p> -->
-            </div>
           </div>
+
           <div class="col-lg-6">
-            <h3 class="resume-title">Professional Experience</h3>
-            <div class="resume-item">
+            <h3 class="resume-title" data-aos="fade-left">Professional Experience</h3>
+            <div class="resume-item" data-aos="fade-up">
               <h4>SENIOR Frontend Developer</h4>
               <h5>MAY 2024 - NOW</h5>
               <p><em>Azure computers (thailand) co. ltd</em></p>
